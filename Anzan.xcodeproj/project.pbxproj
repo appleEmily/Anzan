@@ -15,6 +15,9 @@
 		A10AB19D2389A07200A1C2B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10AB19B2389A07200A1C2B5 /* LaunchScreen.storyboard */; };
 		A10AB1A82389A07300A1C2B5 /* AnzanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AB1A72389A07300A1C2B5 /* AnzanTests.swift */; };
 		A10AB1B32389A07300A1C2B5 /* AnzanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AB1B22389A07300A1C2B5 /* AnzanUITests.swift */; };
+		A10AB1C12389A1FC00A1C2B5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AB1C02389A1FC00A1C2B5 /* ResultViewController.swift */; };
+		A10AB1C5238ACEDB00A1C2B5 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = A10AB1C3238ACEDB00A1C2B5 /* correct.png */; };
+		A10AB1C6238ACEDB00A1C2B5 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = A10AB1C4238ACEDB00A1C2B5 /* incorrect.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A10AB1AE2389A07300A1C2B5 /* AnzanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnzanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10AB1B22389A07300A1C2B5 /* AnzanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnzanUITests.swift; sourceTree = "<group>"; };
 		A10AB1B42389A07300A1C2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10AB1C02389A1FC00A1C2B5 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		A10AB1C3238ACEDB00A1C2B5 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		A10AB1C4238ACEDB00A1C2B5 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,11 @@
 		A10AB18F2389A06F00A1C2B5 /* Anzan */ = {
 			isa = PBXGroup;
 			children = (
+				A10AB1C2238ACEDB00A1C2B5 /* anzan */,
 				A10AB1902389A06F00A1C2B5 /* AppDelegate.swift */,
 				A10AB1922389A06F00A1C2B5 /* SceneDelegate.swift */,
 				A10AB1942389A06F00A1C2B5 /* ViewController.swift */,
+				A10AB1C02389A1FC00A1C2B5 /* ResultViewController.swift */,
 				A10AB1962389A06F00A1C2B5 /* Main.storyboard */,
 				A10AB1992389A07200A1C2B5 /* Assets.xcassets */,
 				A10AB19B2389A07200A1C2B5 /* LaunchScreen.storyboard */,
@@ -126,6 +134,15 @@
 				A10AB1B42389A07300A1C2B5 /* Info.plist */,
 			);
 			path = AnzanUITests;
+			sourceTree = "<group>";
+		};
+		A10AB1C2238ACEDB00A1C2B5 /* anzan */ = {
+			isa = PBXGroup;
+			children = (
+				A10AB1C3238ACEDB00A1C2B5 /* correct.png */,
+				A10AB1C4238ACEDB00A1C2B5 /* incorrect.png */,
+			);
+			path = anzan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +249,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10AB1C6238ACEDB00A1C2B5 /* incorrect.png in Resources */,
+				A10AB1C5238ACEDB00A1C2B5 /* correct.png in Resources */,
 				A10AB19D2389A07200A1C2B5 /* LaunchScreen.storyboard in Resources */,
 				A10AB19A2389A07200A1C2B5 /* Assets.xcassets in Resources */,
 				A10AB1982389A06F00A1C2B5 /* Main.storyboard in Resources */,
@@ -262,6 +281,7 @@
 				A10AB1952389A06F00A1C2B5 /* ViewController.swift in Sources */,
 				A10AB1912389A06F00A1C2B5 /* AppDelegate.swift in Sources */,
 				A10AB1932389A06F00A1C2B5 /* SceneDelegate.swift in Sources */,
+				A10AB1C12389A1FC00A1C2B5 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
